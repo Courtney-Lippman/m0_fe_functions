@@ -25,6 +25,27 @@ function threeParameters(company, min, max) {
 threeParameters("Apple", 90000, 200000);
 
 // 4: Write a function that satifies the following interaction pattern:
+function checkStock(amount, item) {
+
+  if (item === "Coffee" && amount === 4) {
+
+  console.log(`${item} is stocked`);
+
+  }  else if (item === "Tortillas" && amount === 3) {
+
+        console.log(`${item} - running LOW`);
+
+    } else if (item === "Cheese" && amount === 0) {
+
+      console.log(`${item} - OUT of stock!`);
+
+    } else if (item === "Salsa" && amount === 1) {
+
+console.log(`${item} - running LOW`);
+
+
+    }
+}
 
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
