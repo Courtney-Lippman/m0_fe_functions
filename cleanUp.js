@@ -45,4 +45,6 @@ var sum = num1 + num2;
 
   console.log(`The average is: ${avg}.`);
 }
-//Move { on line 43 up to end of line 42. Capitalized the T of the in line 46. Moved the . inside the backticks in line 46. Added ; to end of line 46.
+
+average(20, 40);
+//Move { on line 43 up to end of line 42. Capitalized the T of the in line 46. Moved the . inside the backticks in line 46. Added ; to end of line 46. Add code to call the function on line 49 (I understand that you don't always have to call a function but I thought it would be good practice to add it.)
