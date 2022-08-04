@@ -38,11 +38,11 @@ func makeFreshPesto() {
 makeFreshPesto();
 //Added a space between () and { on line 30. Moved } from line 35 to line 36.
 
-/* //  EX 4:
-function average(num1, num2)
-  {
+//  EX 4:
+function average(num1, num2) {
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
-} */
+  console.log(`The average is: ${avg}.`);
+}
+//Move { on line 43 up to end of line 42. Capitalized the T of the in line 46. Moved the . inside the backticks in line 46. Added ; to end of line 46.
